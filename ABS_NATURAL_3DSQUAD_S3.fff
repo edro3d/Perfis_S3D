@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="ABS_NATURAL_3DSQUAD_S3" version="2019-09-15 16:02:51" app="S3D-Software 4.1.2">
+<profile name="ABS_NATURAL_3DSQUAD_S3" version="2019-09-16 08:49:32" app="S3D-Software 4.1.2">
   <baseProfile>Creality CR-10</baseProfile>
   <printMaterial>ABS</printMaterial>
   <printQuality>Media - 0.2mm</printQuality>
@@ -141,7 +141,7 @@
   <baudRateOverride>115200</baudRateOverride>
   <overridePrinterModels>1</overridePrinterModels>
   <printerModelsOverride></printerModelsOverride>
-  <startingGcode>M900 K255 ; set K-factor,G28 ; home all axes,G29 ; autolevel,,G92 E0 ; reset extruder,G1 X135 Y-20 Z0 F3000 ;,G1 E40 F200 ;,G1 X170 Y-20 Z0 F6000 ;,G1 X170 Y0 Z0 F6000 ;,G92 E0 ; reset extruder,</startingGcode>
+  <startingGcode>M900 K255 ; set K-factor,G28 ; home all axes,G29 ; autolevel,,G92 E0 ; reset extruder,G1 X135 Y-20 Z0 F3000 ;,G1 E40 F200 ;,G1 X170 Y-20 Z0 F10000 ;,G1 X170 Y0 Z0 F10000 ;,G92 E0 ; reset extruder,</startingGcode>
   <layerChangeGcode></layerChangeGcode>
   <retractionGcode></retractionGcode>
   <toolChangeGcode></toolChangeGcode>
